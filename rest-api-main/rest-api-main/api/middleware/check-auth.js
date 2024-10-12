@@ -11,7 +11,7 @@ module.exports = (req,res,next)=>{
     }
     else{
       return res.status(401).json({
-        msg:'not a valid types of user'
+        msg:'not a valid type of user'
       })
     }
   }
